@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Weather Forecast API">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="./script.js" type="module"></script>
+</head>
+
+<body>
+    <div class="info">
+
+        <input type="text" placeholder="City Name" id="cityName">
+        <input type="text" id="searchCountry" placeholder="Search Country Code(Optional)">
+
+        <select id="countryCode" required>
+            <option value="" selected disabled>Select Country Code (Optional)</option>
+        </select>
+
+        <button id="showInCBtn" title="It'll shows you the weather in &deg;C (Temp&deg;C=5/9(temp&deg;F-32))">
+            Show (&deg;C)
+        </button>
+
+        <button id="showInFBtn" title="It'll shows you the weather in &deg;F (Temp&deg;F=9/5&deg;C+32)">
+            Show (&deg;F)
+        </button>
+
+        <button id="showInKBtn" title="It'll shows you the weather in K (TempK=temp&deg;C+273&deg;C)">
+            Show (K)
+        </button>
+
+        <button id="resetBtn">Reset Page</button>
+    </div>
+
+    <section class="container">
+        <h1>Weather Forecast</h1>
+    </section>
+
+</body>
+
+</html>
