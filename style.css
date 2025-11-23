@@ -85,3 +85,126 @@ img {
     width: 125px;
     filter: brightness(0.85);
 }
+
+@media screen and (max-width:768px) {
+    .container {
+        width: 100%;
+        margin-top: 10vh;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        gap: 5px;
+        background-color: #226fff52;
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    input {
+        width: 20%;
+        height: 46px;
+        border: 1px solid black;
+        font-size: 15px;
+        border-radius: 20px;
+        text-transform: capitalize;
+    }
+
+    select {
+        width: 20%;
+        height: 50px;
+        border: 1px solid black;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    button {
+        width: 20%;
+        height: 50px;
+        border: 1px solid black;
+        background-color: #226fff52;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .info {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        background-color: white ;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 40%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+        gap: 5px;
+        background-color: #226fff52;
+    }
+}
+
+@media screen and (800px<=width<=900px) {
+
+    input {
+        width: 20%;
+        height: 46px;
+        border: 1px solid black;
+        font-size: 15px;
+        border-radius: 20px;
+        text-transform: capitalize;
+    }
+
+    select {
+        width: 20%;
+        height: 50px;
+        border: 1px solid black;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    button {
+        width: 20%;
+        height: 50px;
+        border: 1px solid black;
+        background-color: #226fff52;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    .info {
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 15px;
+        background-color: white ;
+    }
+
+    .container {
+        width: 100%;
+        margin-top: 17%;
+        border: 1px solid black;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+        gap: 5px;
+        background-color: #226fff52;
+    }
+}
