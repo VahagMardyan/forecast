@@ -1,4 +1,5 @@
 import { countries, toCapitalize } from './forExport.js';
+// import API_KEY from "./ApiKey.js";
 
 const API_KEY = 'YOUR_API_KEY';
 const container = document.querySelector('section');
@@ -122,6 +123,12 @@ currentLocationBtn.addEventListener('click', getWeatherByLocation);
 showInCBtn.addEventListener('click', () => fetchWeather("C"));
 document.addEventListener('keyup', (event) => {
     event.key === "Enter" ? fetchWeather("C") : null;
+    if(event.key === "Escape") {
+        const activeElem = document.activeElement;
+        if(activeElem.tagName === "INPUT") {
+            activeElem.value = "";
+        }
+    }
 });
 
 showInFBtn.addEventListener('click', () => fetchWeather("F"));
