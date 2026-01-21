@@ -1,6 +1,6 @@
 import { countries, toCapitalize } from './forExport.js';
 
-const API_KEY = '413d0defb02ebb494ea5e39ceb810e6b';
+const API_KEY = 'YOUR_API_KEY';
 const container = document.querySelector('section');
 const cityName = document.querySelector('#cityName');
 const countryCode = document.querySelector('#countryCode');
