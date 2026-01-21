@@ -1,2 +1,2 @@
 Weather forecast web-page using API. To test visit:
-https://vahagmardyan.github.io/forecast/
+https://weatherforecast-vahag-mardyan.netlify.app/
